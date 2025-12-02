@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+
+body{
+  background-color: rgb(243, 237, 220);
+  font-family: "Montserrat", sans-serif;
+}
+.header{
+  background-color: burlywood;  
+  height: 150px;
+  width: 100%;
+  display: flex;
+
+}
+
+.banner{
+background-image: url(frango.jpg);
+background-color: white;
+object-fit:cover;
+width: 700px;
+height: 450px;
+padding: 20px;
+padding-top: 20px;
+background-position: center;
+background-repeat: no-repeat;
+border-radius: 8px;
+margin:auto;
+margin-top: 8%;
+margin-bottom: 20px;
+background-size: 80% 80%;
+}
+
+.card{
+height: 250px;
+width: 700px;
+padding: 50px;
+background-color: white;
+margin: auto;
+border-radius: 8px;
+font-weight: 300;
+margin-bottom: 20px;
+line-height: 30px;
+
+}
+
+.card_preparation{
+height: 500px;
+width: 700px;
+padding: 50px;
+background-color: white;
+margin: auto;
+border-radius: 8px;
+font-weight: 300;
+margin-bottom: 20px;
+line-height: 30px;
+}
+
+p{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 100;
+  position:relative;
+  margin-top: 10%;
+}
+
+nav{
+list-style-position:inside;
+line-height: 10px;
+height: 250vh;
+width: 50px;
+padding: 20px;
+top: auto;
+margin-top: auto;
+}
+
+nav ul{
+  display: flex;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  justify-content: center;
+}
+
+nav li a{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+h1{
+  color: rgb(117, 1, 24);
+  text-align: center;
+  font-size: 20px;
+  font-style: oblique;
+}
+
+h2{
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  background-color: white;
+  height: 550px;
+  padding: 50px;
+}
+
+h4{
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+footer{
+  background-color: burlywood;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  padding: 50px;
+  height: 500px;
+}
+
+footer p{
+  font-size: 20px;
+  text-align: center;
+  white-space: nowrap;
+
+}
+
+footer nav ul{
+  list-style: none;
+  padding: 0;
+}
+
+
+footer nav ul li a{
+  color: black;
+  background-color: green;
+  padding: 20px;
+  text-align: center;
+  display:flex;
+
+}
